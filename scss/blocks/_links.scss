@@ -1,0 +1,49 @@
+.links {
+
+  h1 {
+    padding: 1.875rem 1.875rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  a {
+    display: block;
+    line-height: 2;
+    font-size: 0.9rem;
+    padding: 0 2rem;
+    color: #696969;
+  }
+
+  .separator {
+    width: 90%;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    height: 2rem;
+    border-bottom: 1px solid lightgrey;
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+  &__icons {
+    padding: 0 1.875rem;
+  }
+  p {
+    padding: 0 1.875rem;
+    line-height: 2;
+  }
+
+  i {
+    margin-bottom: 1rem;
+    transition: background-color .25s ease-in-out;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 0.35rem;
+    outline: 0;
+    opacity: 0.75;
+    text-decoration: none;
+    background: #222222;
+    color:white;
+  }
+}

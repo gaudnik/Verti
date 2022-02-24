@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Open+Sans:wght@300;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="row">
+        <div class="header__logo col-lg-5">
+          <div class="header__brand">Verti</div>
+          <div class="header__slogan">by HTML5 UP</div>
+        </div>
+        <div class="col-lg-7">
+          <label class="menu__burger" for="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <input type="checkbox" name="menu" id="menu" class="hidden" />
+
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">Welcome</li>
+              <li class="menu__item">Left Sidebar</li>
+              <li class="menu__item">Right Sidebar</li>
+              <li class="menu__item">No Sidebar</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="hero container">
+      <div class="hero__wrapper">
+        <div class="row">
+          <div class="col-lg-7 col-xl-6 hero__description">
+            <h1>Hi. This is Verti.</h1>
+            <h2>It's a free responsive site template by HTML5 UP</h2>
+          </div>
+          <div class="col-lg-5 col-xl-6 hero__cta">
+            <a class="button button--primary" href="#">
+              <span>Ok let's go</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </a>
+            <a class="button button--secondary" href="#">
+              <span>More info</span>
+              <i class="fas fa-question-circle"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features container">
+      <div class="features__wrapper">
+        <div class="row">
+          <div class="col-lg-4 features__description">
+            <div class="features__box">
+              <a href="#" class="features__image">
+                 <img src="./assets/pic01.jpg" alt="image">
+              </a>
+              <div class="features__inner">
+               <header>
+                <h2 class="features__title">Put something here</h2>
+                <p class="features__text">Maybe here as well I think</p>
+               </header>
+               <p class="features__paragraph">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+                Praesent sed semper amet bibendum tristique fringilla.
+               </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 features__description">
+            <div class="features__box">
+              <a href="#" class="features__image">
+                <img src="./assets/pic02.jpg" alt="image">
+              </a>
+              <div class="features__inner">
+                <header>
+                  <h2 class="features__title">An interesting title</h2>
+                  <p class="features__text">This is also an interesting subtitle</p>
+                </header>
+                <p class="features__paragraph">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+                  Praesent sed semper amet bibendum tristique fringilla.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 features__description">
+            <div class="features__box">
+              <a href="#" class="features__image">
+                <img src="./assets/pic03.jpg" alt="image">
+              </a>
+              <div class="features__inner">
+                <header>
+                  <h2 class="features__title">Oh, and finally ...</h2>
+                  <p class="features__text">Here's another intriguing subtitle</p>
+                </header>
+                <p class="features__paragraph">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+                  Praesent sed semper amet bibendum tristique fringilla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main">
+      <div class="main__container container">
+        <div class="row main__wrapper">
+          <div class="col-lg-8">
+            <h1>So what's this all about?</h1>
+            <p>This is <strong>Verti</strong>, a free and fully responsive HTML5 site template by <a href="html5up.net">HTML5 UP</a>. Verti is released under the <a href="htmlup5.net/license">Creative Commons Attribution license</a>, so feel free to use it for any personal or commercial project you might have going on (just don't forget to credit us for the design!)</p>
+            <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit amet phasellus quam turpis.</p>
+            <a class="button button--primary main__button" href="#">
+              <span>Continue reading</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </a>
+            <div class="separator"></div>
+          </div>
+          <div class="col-lg-4">
+            <h2>Interesting stuff</h2>
+            <div class="row main__row">
+              <div class="col-6 main__image"><img src="assets/pic04.jpg"></div>
+              <div class="col-6 main__image"><img src="assets/pic05.jpg"></div>
+              <div class="col-6 main__image"><img src="assets/pic06.jpg"></div>
+              <div class="col-6 main__image"><img src="assets/pic07.jpg"></div>
+            </div>
+            <a class="button button--primary main__button" href="#">
+              <span>More</span>
+              <i class="fas fa-file-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="links container">
+      <div class="row links__wrapper">
+        <div class="col-lg-6 col-xl-3 links__box">
+          <h1>Random Stuff</h1>
+          <a href="#">Etiam feugiat condimentum</a>
+          <a href="#">Aliquam imperdiet suscipit odio</a>
+          <a href="#">Sed porttitor cras in erat nec</a>
+          <a href="#">Felis varius pellentesque potenti</a>
+          <a href="#">Nullam scelerisque blandit leo</a>
+        </div>
+        <div class="separator">
+        </div>
+        <div class="col-lg-6 col-xl-3 links__box">
+          <h1>Random Stuff</h1>
+          <a href="#">Etiam feugiat condimentum</a>
+          <a href="#">Aliquam imperdiet suscipit odio</a>
+          <a href="#">Sed porttitor cras in erat nec</a>
+          <a href="#">Felis varius pellentesque potenti</a>
+          <a href="#">Nullam scelerisque blandit leo</a>
+        </div>
+        <div class="separator">
+        </div>
+        <div class="col-lg-6 col-xl-3 links__box">
+          <h1>Random Stuff</h1>
+          <a href="#">Etiam feugiat condimentum</a>
+          <a href="#">Aliquam imperdiet suscipit odio</a>
+          <a href="#">Sed porttitor cras in erat nec</a>
+          <a href="#">Felis varius pellentesque potenti</a>
+          <a href="#">Nullam scelerisque blandit leo</a>
+        </div>
+        <div class="separator"></div>
+        <div class="col-lg-6 col-xl-3 links__box links__contact">
+          <h1>Contact Us</h1>
+          <div class="links__icons">
+            <i class="fab fa-twitter" href="#"></i>
+            <i class="fab fa-facebook" href="#"></i>
+            <i class="fab fa-instagram" href="#"></i>
+            <i class="fab fa-dribbble" href="#"></i>
+            <i class="fab fa-pinterest" href="#"></i>
+            </a>
+          </div>
+          <div class="links__adress">
+            <p>1234 Fictional Road</p>
+            <p>Nashville, TN 00000</p>
+            <p>(800) 555-0000</p>
+          </div>
+          <div class="separator"></div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <footer class="footer container">
+      <div class="col-lg-12 footer__wrapper">
+        <ul>
+          <li>© Untitled. All rights reserved</li>
+          <li>Design: <a href="html5up.net">HTML5 UP</a></li>
+          <li>Demo Images: <a href="unsplash.com">Unsplash</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.header {
+  margin-top: 3.375rem;
+  &__logo {
+    text-align: center;
+
+    @media (min-width: 992px) {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__brand {
+    display: inline-block;
+    background-color: #fc4887;
+    font-family: "Oleo Script", cursive;
+    color: #fff;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding: 0.5rem;
+    border-radius: $border-radius;
+  }
+  &__slogan {
+    line-height: 3;
+    font-weight: 800;
+
+    @media (min-width: 992px) {
+      margin-left: 1rem;
+    }
+  }
+}
